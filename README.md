@@ -1,5 +1,21 @@
 # Speech enhancement models for Apple Core AI
 
+> **Original RNNoise model and pretrained weights:** Jean-Marc Valin and the RNNoise/Xiph.Org contributors. Original copyright notices also credit Amazon, Mozilla, Xiph.Org Foundation, Mark Borgerding, and contributors named in individual source files.
+>
+> **Official upstream:** [Xiph RNNoise](https://github.com/xiph/rnnoise) ([canonical repository](https://gitlab.xiph.org/xiph/rnnoise)). **Original paper:** Jean-Marc Valin, [A Hybrid DSP/Deep Learning Approach to Real-Time Full-Band Speech Enhancement](https://arxiv.org/abs/1709.08243). The published checkpoints use the current RNNoise architecture.
+>
+> **License:** upstream BSD-style notices, preserved in [vendor/rnnoise/LICENSE](vendor/rnnoise/LICENSE) and source files.
+>
+> **Core AI conversion, packaging, and validation:** Max Farrell. Original architectures and pretrained parameters are credited to the upstream projects; no model training was performed for these conversions. This is an independent community conversion, without upstream or Apple endorsement.
+
+> **Original UL-UNAS model and pretrained weights:** Xiaobin Rong and the UL-UNAS project contributors. **Paper authors:** Xiaobin Rong, Leyan Yang, Dahan Wang, Yuxiang Hu, Changbao Zhu, Kai Chen, and Jing Lu. **Upstream streaming implementation:** Kailai Shen, credited by the upstream repository.
+>
+> **Official upstream:** [Xiaobin-Rong/ul-unas](https://github.com/Xiaobin-Rong/ul-unas). **Original paper:** [UL-UNAS: Ultra-Lightweight U-Nets for Real-Time Speech Enhancement via Network Architecture Search](https://doi.org/10.1109/TASLPRO.2026.3661271).
+>
+> **License:** [upstream MIT](vendor/ulunas/LICENSE), copyright Xiaobin Rong.
+>
+> **Core AI conversion, packaging, and validation:** Max Farrell. Original architectures and pretrained parameters are credited to the upstream projects; no model training was performed for these conversions. This is an independent community conversion, without upstream or Apple endorsement.
+
 Pretrained **RNNoise** and **UL-UNAS** streaming neural networks exported as self-contained `.aimodel` directories. Conversion and validation by Max Farrell; original models and weights by the upstream authors linked below. This is an independent community conversion project.
 
 | Model | Checkpoint | Asset | License |
@@ -8,7 +24,7 @@ Pretrained **RNNoise** and **UL-UNAS** streaming neural networks exported as sel
 | RNNoise | official `rnnoise10Gb_15.pth` | `exports/rnnoise10Gb_15_float32_streaming.aimodel` | upstream BSD-style notices |
 | UL-UNAS | DNS3 `model_trained_on_dns3.tar` | `exports/ulunas_dns3_float32_streaming.aimodel` | MIT |
 
-Download complete model directories from this repository, the [GitHub release](https://github.com/maxffarrell/speech-enhancement-coreai/releases/tag/v0.1.0), or the dedicated model repositories on Hugging Face: [RNNoise Core AI](https://huggingface.co/maxffarrell/rnnoise-coreai) and [UL-UNAS Core AI](https://huggingface.co/maxffarrell/ul-unas-coreai). Integrity hashes are in `SHA256SUMS`; upstream revisions and checkpoint hashes are in `provenance.json`.
+Download complete model directories from this repository, the [GitHub release](https://github.com/maxffarrell/speech-enhancement-coreai/releases/tag/v0.1.1), or the dedicated model repositories on Hugging Face: [RNNoise Core AI](https://huggingface.co/maxffarrell/rnnoise-coreai) and [UL-UNAS Core AI](https://huggingface.co/maxffarrell/ul-unas-coreai). Integrity hashes are in `SHA256SUMS`; upstream revisions and checkpoint hashes are in `provenance.json`.
 
 ## Reproduce
 

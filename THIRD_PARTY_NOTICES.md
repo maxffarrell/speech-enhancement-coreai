@@ -1,5 +1,7 @@
 # Third-party notices
 
+**Original model credits are prominently listed in [ATTRIBUTION.md](ATTRIBUTION.md). The Core AI converter is not the original model author.**
+
 The root MIT license covers new conversion and validation code only.
 
 - UL-UNAS implementation, streaming implementation, and DNS3 checkpoint: Xiaobin Rong and contributors, https://github.com/Xiaobin-Rong/ul-unas, revision `00f7c700da43d38347f30a6ccebd86fcbc798e07`. Repository MIT license reproduced at `vendor/ulunas/LICENSE`. Streaming implementation is credited upstream to Kailai Shen. `stream.py` is extracted before the demo block; unused ONNX imports were removed. The functional adapter clones input caches; architecture and pretrained weights are retained.
