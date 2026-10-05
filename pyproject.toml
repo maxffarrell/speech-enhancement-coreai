@@ -4,4 +4,4 @@ version = "0.1.0"
 description = "Reproducible pretrained RNNoise and UL-UNAS Core AI streaming exports"
 requires-python = ">=3.11,<3.14"
 license = "MIT"
-dependencies = ["torch==2.11.0", "coreai-core==1.0.0b3", "coreai-torch==0.4.3", "numpy==2.4.6", "einops==0.8.2", "soundfile==0.14.0", "tqdm==4.70.1"]
+dependencies = ["torch==2.13.0", "coreai-core==1.0.0b3", "coreai-torch==0.4.3", "numpy==2.4.6", "einops==0.8.2", "soundfile==0.14.0", "tqdm==4.70.1"]
