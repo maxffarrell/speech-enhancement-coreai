@@ -1,0 +1,8 @@
+{
+  "license" : "MIT",
+  "creationDate" : "20261005T034350Z",
+  "producer" : "coreai-core 1.0.0b3",
+  "assetVersion" : "2.0",
+  "author" : "Xiaobin Rong and contributors",
+  "description" : "ulunas_dns3 pretrained streaming neural network; Core AI conversion by Max Farrell. Audio DSP is external. See README and provenance.json."
+}

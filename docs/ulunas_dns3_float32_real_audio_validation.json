@@ -1,0 +1,14 @@
+{
+  "variant": "ulunas_dns3",
+  "precision": "torch.float32",
+  "device": "CPU",
+  "frames": 32,
+  "input_fixture": "https://github.com/Xiaobin-Rong/ul-unas/blob/00f7c700da43d38347f30a6ccebd86fcbc798e07/audio/noisy/0174.wav",
+  "minimum_psnr_db": {
+    "enh": 134.92219757844848,
+    "conv_cache_out": 146.132056796286,
+    "tfa_cache_out": 127.83096769725003,
+    "inter_cache_out": 133.28639924050998
+  },
+  "source_graph_psnr_db": 160.5767199545419
+}

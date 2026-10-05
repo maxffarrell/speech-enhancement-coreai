@@ -1,0 +1,14 @@
+{
+  "variant": "ulunas_dns3",
+  "precision": "torch.float32",
+  "device": "CPU",
+  "frames": 32,
+  "input_fixture": "deterministic synthetic input",
+  "minimum_psnr_db": {
+    "enh": 133.01418925854267,
+    "conv_cache_out": 140.67057240984724,
+    "tfa_cache_out": 128.17625062837183,
+    "inter_cache_out": 132.82323751195753
+  },
+  "source_graph_psnr_db": 156.44120297052766
+}

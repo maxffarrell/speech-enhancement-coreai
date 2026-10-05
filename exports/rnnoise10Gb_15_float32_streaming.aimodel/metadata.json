@@ -1,0 +1,8 @@
+{
+  "author" : "Jean-Marc Valin and RNNoise contributors",
+  "producer" : "coreai-core 1.0.0b3",
+  "creationDate" : "20261005T034432Z",
+  "assetVersion" : "2.0",
+  "license" : "BSD-3-Clause; see vendor\/rnnoise\/LICENSE and source-file notices",
+  "description" : "rnnoise10Gb_15 pretrained streaming neural network; Core AI conversion by Max Farrell. Audio DSP is external. See README and provenance.json."
+}

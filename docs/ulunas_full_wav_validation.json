@@ -1,0 +1,9 @@
+{
+  "sample_rate": 16000,
+  "samples": 160000,
+  "device": "CPU",
+  "precision": "float32",
+  "psnr_db": 144.10737359977108,
+  "comparison": "enhance.py Core AI full WAV versus upstream ULUNAS.forward",
+  "fixture": "https://github.com/Xiaobin-Rong/ul-unas/blob/00f7c700da43d38347f30a6ccebd86fcbc798e07/audio/noisy/0174.wav"
+}

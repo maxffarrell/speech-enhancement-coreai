@@ -1,0 +1,16 @@
+{
+  "variant": "rnnoise10Gb_15",
+  "precision": "torch.float32",
+  "device": "CPU",
+  "frames": 32,
+  "minimum_psnr_db": {
+    "gains": 119.31544934170611,
+    "vad": 108.10847246728939,
+    "conv1_cache_out": 300.0,
+    "conv2_cache_out": 136.9386904353855,
+    "gru1_state_out": 130.72275286716928,
+    "gru2_state_out": 129.75496730030014,
+    "gru3_state_out": 129.36344555317814
+  },
+  "source_graph_psnr_db": 115.73556538082136
+}

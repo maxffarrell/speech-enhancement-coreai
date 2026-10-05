@@ -1,0 +1,28 @@
+{
+  "toolchain": {
+    "torch": "2.11.0",
+    "coreai-torch": "0.4.3",
+    "coreai-core": "1.0.0b3"
+  },
+  "validation_os": "macOS 27.0.1 (26A434)",
+  "compute_unit": "CPU",
+  "upstream": {
+    "ulunas": {
+      "repository": "https://github.com/Xiaobin-Rong/ul-unas",
+      "commit": "00f7c700da43d38347f30a6ccebd86fcbc798e07",
+      "license": "MIT"
+    },
+    "rnnoise": {
+      "repository": "https://github.com/xiph/rnnoise",
+      "commit": "70f1d256acd4b34a572f999a05c87bf00b67730d",
+      "license": "BSD-style; see retained notices",
+      "archive": "https://media.xiph.org/rnnoise/models/rnnoise_data-0a8755f8e2d834eff6a54714ecc7d75f9932e845df35f8b59bc52a7cfe6e8b37.tar.gz",
+      "archive_sha256": "0a8755f8e2d834eff6a54714ecc7d75f9932e845df35f8b59bc52a7cfe6e8b37"
+    }
+  },
+  "checkpoints": {
+    "rnnoise10Ga_12.pth": "1f495605b553ce1f64643e3732249ede58a72c062f42c53e9f929bbd1b1ff31c",
+    "rnnoise10Gb_15.pth": "ff1f6b2a63dcf3b74eff95a77d4deb1b75e26a3a7fa6e4921210086313f412ba",
+    "ulunas_dns3.tar": "9a0656bf8e88d36865792d3065fed9bc33d5ab85e11ae3a1ae085b928fdb49a8"
+  }
+}
